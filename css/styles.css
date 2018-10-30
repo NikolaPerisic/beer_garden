@@ -4,6 +4,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	margin: 0;
+}
+
 .page-one {
     background: url("../img/beer3.jpg");
     background-repeat: no-repeat;
