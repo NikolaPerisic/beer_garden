@@ -1,9 +1,6 @@
 $(function(){
 
-	$.scrollify({
-		section : ".sections",
-		sectionName : "page"
-	});
+	
 	$('#about-block').click(function(){
 		$.scrollify.move('#about');
 	});
