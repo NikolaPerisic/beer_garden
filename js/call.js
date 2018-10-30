@@ -1,20 +1,5 @@
 $(function(){
 
-	$.scrollify();
-	
-	$('#about-block').click(function(){
-		$.scrollify.move('#about');
-	});
-	$('#gallery-block').click(function(){
-		$.scrollify.move('#gallery');
-	});
-	$('#location-block').click(function(){
-		$.scrollify.move('#location');
-	});
-	$('#contact-block').click(function(){
-		$.scrollify.move('#location');
-	});
-
 	$('#about-block').hover(function(){
 		$('#about').stop().slideToggle();
 	});
