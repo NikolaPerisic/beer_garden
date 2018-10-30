@@ -1,5 +1,6 @@
 $(function(){
 
+	$.scrollify();
 	
 	$('#about-block').click(function(){
 		$.scrollify.move('#about');
