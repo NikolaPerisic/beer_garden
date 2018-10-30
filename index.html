@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>New Design</title>
+	<title>Beer Garden</title>
 	<link rel="stylesheet" href="css/font-awesome-all.css">
 	<link rel="stylesheet" href="css/solid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -13,20 +13,23 @@
 	<div data-page="home" class="sections page-one home">
 		<div class="menu">
 			<div id="about-block" class="blocks">
-				<a href="#aboutpage">
+				<a href="#about-page">
 					<i class="fas fa-info famod"></i></a>
 				<div class="icontext" id="about">About</div>
 			</div>
 			<div id="gallery-block" class="blocks">
-				<i class="fas fa-beer famod"></i>
+				<a href="#gallery-page">
+					<i class="fas fa-beer famod"></i></a>
 				<div class="icontext" id="gallery">Gallery</div>
 			</div>
 			<div id="location-block" class="blocks">
-				<i class="fas fa-map-marker-alt famod"></i>
+				<a href="#location-page">
+					<i class="fas fa-map-marker-alt famod"></i></a>
 				<div class="icontext" id="location">Location</div>
 			</div>
 			<div id="contact-block" class="blocks">
-				<i class="fas fa-phone-square famod"></i>
+				<a href="#contact-page">
+					<i class="fas fa-phone-square famod"></i></a>
 				<div class="icontext" id="contact">Contact</div>
 			</div>
 		</div>
@@ -39,7 +42,7 @@
 		</div>
 	</div>
 	<div data-page="about" class="sections page-two">
-		<div class="title-section" id="aboutpage">About</div>
+		<div class="title-section" id="about-page">About</div>
 		<div class="about">
 			<div class="about-content">
 				<p>Beer Garden takes great pride in giving our guests a great selection of food & beverages. Along with our full service bar featuring Local Brew, Imported, Domestic, & Premium Beers. We also carry more than 50 different Craft beers. Now is a great time to stop by and enjoy some of the fantastic craft beer that is available. Our own Pacific craft brew is specially designed and made on the island, using the top quality imported hops from USA, Europe and Asia. With great selection of foods and beverages, unique relaxing atmosphere and our friendly staff, Beer Garden is a must stop for every island visitor.</p>
@@ -74,7 +77,7 @@
 		</div>
 	</div>
 	<div data-page="gallery" class="sections page-three">
-		<div class="title-section">Gallery</div>
+		<div class="title-section" id="gallery-page">Gallery</div>
 		<div class="gallery">
 			<div class="item">
 				<a href="img/gallery/alban-martel-681773-unsplash.jpg" target="_blank">
@@ -115,14 +118,14 @@
 		</div>
 	</div>
 	<div data-page="location" class="sections clouds">
-		<div class="title-section">Location</div>
+		<div class="title-section" id="location-page">Location</div>
 		<div class="map-container">
 			<div class="map-responsive">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3363.541471663744!2d-149.48411634423337!3d-17.50768767874726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1540903103901" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
-	<footer class="footer-distributed">
+	<footer class="footer-distributed" id="contact-page">
 			<div class="footer-right">
 				<a href="#"><i class="fab fa-facebook-f"></i></a>
 				<a href="#"><i class="fab fa-twitter"></i></a>
@@ -146,7 +149,6 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/font-awesome-all.js"></script>
 	<script src="js/solid.min.js"></script>
-	<script src="js/jquery.scrollify.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/call.js"></script>
 </body>
